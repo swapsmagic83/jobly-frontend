@@ -37,6 +37,7 @@ class JoblyApi {
 
   static async setToken(token) {
     this.token = token
+    
   }
 
   // Individual API routes
