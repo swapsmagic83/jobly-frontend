@@ -11,6 +11,7 @@ function App() {
   const [currentUser,setCurrentUser] =useState(localStorage.getItem('username') || '')
   const [currentUserProfile, setCurrentUserProfile] = useState({})
   const [jobApplicationIds, setJobApplicationIds]=useState([])
+  const [err,setErr]=useState(null)
    
 
   useEffect(()=>{
